@@ -1,8 +1,8 @@
 <template>
-<header>
+<div class="site-logo">
     <img src="../../public/logo.svg" alt="Westenthanner Design Logo" class="title-img" >
     <h1>westenthanner<span class="code-style">design</span></h1>
-</header>
+</div>
 </template>
 
 <script lang="ts">
@@ -15,7 +15,7 @@ export default defineComponent({
 
 <style scoped>
 
-header {
+.site-logo {
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -35,7 +35,7 @@ h1 {
 .code-style {
     display: block;
     font-family: 'Roboto Mono', monospace;
-
+    font-weight: 300;
 }
 
 .title-img {

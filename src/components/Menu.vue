@@ -1,21 +1,23 @@
 <template>
     <nav>
         <ul>
-            <li>Projekte</li>
-            <li>Skills</li>
+            <li><router-link to="#projects">Projekte</router-link></li>
+            <li><router-link to="#skills">Leistungen</router-link></li>
+            <li><a class="button-link" href="mailto:info@westenthanner-design.com">Contact me!</a></li>
         </ul>
-        <a class="button-link" href="mailto:info@westenthanner-design.com">Contact me!</a>
+        
     </nav>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
-
-});
-</script>
-
 <style scoped>
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li:not(:last-child) {
+    margin-right: 2rem;
+}
 
 </style>
