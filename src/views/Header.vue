@@ -22,9 +22,13 @@ export default defineComponent({
 <style>
 
 header {
+  position: absolute;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 3rem;
+  padding: 3rem;
+  box-sizing: border-box;
+  background-color: transparent;
 }
 
 </style>

@@ -17,6 +17,15 @@
   src: local("Roboto Mono"), url("/fonts/Roboto Mono/RobotoMono-Italic.ttf") format("truetype");
 }
 
+/* --- COLOR VARIABLES --- */
+:root {
+  --accent-light: #ffd864;
+  --accent-mid: #FF754A;
+  --accent-dark: #7664FF;
+  --background: white;
+  --text: black;
+}
+
 
 /* --- RESETS --- */
 * {

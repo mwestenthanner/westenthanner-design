@@ -1,6 +1,7 @@
 <template>
     <nav>
         <ul>
+            <li><router-link to="#about">Über mich</router-link></li>
             <li><router-link to="#projects">Projekte</router-link></li>
             <li><router-link to="#skills">Leistungen</router-link></li>
             <li><a class="button-link" href="mailto:info@westenthanner-design.com">Contact me!</a></li>
@@ -18,6 +19,12 @@ ul li {
 
 ul li:not(:last-child) {
     margin-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono';
 }
 
 </style>
