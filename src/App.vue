@@ -1,27 +1,52 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <Main></Main>
+  <Projects></Projects>
+  <Skills></Skills>
+  <Footer></Footer>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import Main from './views/Main.vue'
+import Projects from './views/Projects.vue'
+import Skills from './views/Skills.vue'
+import Footer from './views/Footer.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    Main,
+    Projects,
+    Skills,
+    Footer
   }
 });
 </script>
 
 <style>
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: "Lexend Deca", Arial, sans-serif;
 }
+
+#main {
+  height: 100vh;
+  margin: 3rem;
+}
+
+#projects {
+  background-color: aquamarine;
+  height: 60vh;
+}
+
+#skills {
+  background-color: antiquewhite;
+  height: 40vh;
+}
+
+footer {
+  background-color: blue;
+  height: 40vh; 
+}
+
 </style>
