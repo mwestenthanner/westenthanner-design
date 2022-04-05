@@ -1,6 +1,6 @@
 <template>
 <Transition>
-<button @click="scrollToTop" v-if="visible">
+<button type="button" @click="scrollToTop" v-if="visible">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" height="24" viewBox="0 0 24 24" width="24">
     <path d="M19.0173 15L12.0173 7.99999L5.01732 15" />
     </svg>

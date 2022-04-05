@@ -4,7 +4,7 @@
             <li><router-link to="#about">Über mich</router-link></li>
             <li><router-link to="#projects">Projekte</router-link></li>
             <li><router-link to="#skills">Leistungen</router-link></li>
-            <li><a class="button-link" href="mailto:info@westenthanner-design.com">Contact me!</a></li>
+            <li><a class="button-link" href="mailto:info@westenthanner-design.com">Contact me</a></li>
         </ul>
         
     </nav>
