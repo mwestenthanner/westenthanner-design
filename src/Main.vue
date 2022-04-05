@@ -42,7 +42,7 @@ main {
 
 
 footer {
-  background-color: blue;
+  background-color: var(--accent-dark);
   height: 40vh; 
 }
 

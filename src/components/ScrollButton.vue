@@ -48,7 +48,7 @@ export default defineComponent({
 <style scoped>
 
 button {
-    background-color: blue;
+    background-color: var(--accent-dark);
     border: none;
     height: 4rem;
     width: 4rem;

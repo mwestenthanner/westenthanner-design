@@ -35,6 +35,7 @@ h1 {
 .code-style {
     display: block;
     font-family: 'Roboto Mono', monospace;
+    font-style: italic;
     font-weight: 300;
 }
 
