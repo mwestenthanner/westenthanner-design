@@ -23,6 +23,7 @@ export default defineComponent({
 
 header {
   position: absolute;
+  z-index: 1;
   width: 100%;
   display: flex;
   justify-content: space-between;

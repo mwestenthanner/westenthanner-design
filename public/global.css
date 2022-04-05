@@ -9,6 +9,24 @@
   }
 
 @font-face {
+    font-family: "Trap";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("Trap"), url("/fonts/Trap/trap-regular.otf") format("opentype");
+  }
+
+@font-face {
+    font-family: "Trap";
+    font-weight: 600;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("Trap"), url("/fonts/Trap/trap-medium.otf") format("opentype");
+  }
+
+@font-face {
   font-family: "Roboto Mono";
   font-weight: 400;
   font-style: italic;
@@ -34,3 +52,24 @@
 }
 
 /* --- GLOBAL STYLES --- */
+.circle {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  
+}
+
+.blur {
+  filter: blur(8vw);
+}
+
+.light {
+  background-color: var(--accent-light);
+}
+
+.mid {
+  background-color: var(--accent-mid);
+}
+
+.dark {
+  background-color: var(--accent-dark);
+}

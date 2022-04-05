@@ -21,10 +21,15 @@ ul li:not(:last-child) {
     margin-right: 2rem;
 }
 
+ul li:not(:last-child)::after {
+    padding-left: 0.5rem;
+    content: '*/';
+    opacity: 0.4;
+}
+
 a {
     text-decoration: none;
-    color: white;
-    font-family: 'Roboto Mono';
+    color: black;
 }
 
 </style>

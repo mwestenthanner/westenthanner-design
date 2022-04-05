@@ -26,11 +26,11 @@ h1 {
 }
 
 .code-style::before {
-    content: '<';
+    content: '';
 }
 
 .code-style::after {
-    content: '>';
+    content: '*';
 }
 .code-style {
     display: block;

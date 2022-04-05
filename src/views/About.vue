@@ -1,6 +1,7 @@
 <template>
 <div id="about">
 Hallo, ich bin about
+
 </div>
 </template>
 
@@ -13,5 +14,9 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
+#about {
+    height: 100vh;
+}
 
 </style>

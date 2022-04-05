@@ -32,21 +32,14 @@ export default defineComponent({
 
 main {
   top: 0;
+  overflow-x: hidden;
 }
 
 #screen {
   height: 100vh;
+  position: relative;
 }
 
-#projects {
-  background-color: aquamarine;
-  height: 60vh;
-}
-
-#skills {
-  background-color: antiquewhite;
-  height: 40vh;
-}
 
 footer {
   background-color: blue;

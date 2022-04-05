@@ -20,6 +20,6 @@ export default defineComponent({
 
 <style>
 #app {
-  font-family: "Lexend Deca", Arial, sans-serif;
+  font-family: "Trap", Arial, sans-serif;
 }
 </style>
