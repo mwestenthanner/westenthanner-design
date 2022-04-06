@@ -11,7 +11,7 @@
     <h2>{{ project.name }}</h2>
     <p>{{ project.description }}</p>
     <div class="cta" v-if="project.url != ''">
-      <a class="button-link" :href="project.url">Jetzt ausprobieren</a>
+      <a target="_blank" class="button-link" :href="project.url">Jetzt ausprobieren</a>
     </div>
   </div>
 
