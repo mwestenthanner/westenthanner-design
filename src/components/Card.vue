@@ -4,12 +4,12 @@
     <Transition>
     <div class="overlay" :class="secondaryColor" v-if="hover">
         <h3>{{ project.name }}</h3>
-        <p><router-link to="">Mehr lesen</router-link></p>
+        <p><router-link :to="{ name: 'project', params: { projectName: project.name }}">Mehr lesen</router-link></p>
     </div>
     </Transition>
 
     <div class="image" :class="[color, hover ? 'hover-effect' : 'no-effect']">
-        <img :src="`${publicPath}img/projects/${project.img}`" alt="Card image">
+        <img :src="`${publicPath}img/projects/${project.img}`" :alt="project.name">
     </div>
 
 </div>

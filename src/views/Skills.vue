@@ -6,7 +6,7 @@
             <li>
                 <div class="list-item">
                     <h3>Web Design</h3>
-                    <p>Ich designe Deinen Webauftritt, konzipiere nutzerfreundliche Designs und versehe sie mit der notwendigen Funktion. Als ausgebildete Softwarejournalistin bin ich zudem Expertin, was Nutzer und deren Vorlieben betrifft.</p>
+                    <p>Ich designe Deinen Webauftritt, konzipiere nutzerfreundliche Designs und versehe sie mit der notwendigen Funktion. Als ausgebildete Softwarejournalistin bin ich zudem Expertin, was Nutzer und deren Anforderungen betrifft.</p>
                     <MoreButton></MoreButton>
                 </div>
             </li>

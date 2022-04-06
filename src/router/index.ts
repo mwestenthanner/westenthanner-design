@@ -2,23 +2,29 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Main from '../pages/Main.vue'
 import Impressum from '../pages/Impressum.vue'
 import Datenschutz from '../pages/Datenschutz.vue'
+import SingleProject from '../pages/SingleProject.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '',
-    name: 'Home',
+    name: 'home',
     component: Main
   },
   {
     path: '/impressum',
-    name: 'Impressum',
+    name: 'impressum',
     component: Impressum
   },
   {
     path: '/datenschutz',
-    name: 'Datenschutz',
+    name: 'datenschutz',
     component: Datenschutz
   },
+  {
+    path: '/project/:projectName',
+    name: 'project',
+    component: SingleProject
+  }
 ]
 
 const router = createRouter({
