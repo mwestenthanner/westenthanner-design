@@ -10,11 +10,11 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Screen from './views/Screen.vue'
-import About from './views/About.vue'
-import Projects from './views/Projects.vue'
-import Skills from './views/Skills.vue'
-import Footer from './views/Footer.vue'
+import Screen from '../views/Screen.vue'
+import About from '../views/About.vue'
+import Projects from '../views/Projects.vue'
+import Skills from '../views/Skills.vue'
+import Footer from '../views/Footer.vue'
 
 export default defineComponent({
   name: 'App',
@@ -43,7 +43,6 @@ main {
 
 footer {
   background-color: var(--accent-dark);
-  height: 40vh; 
 }
 
 </style>

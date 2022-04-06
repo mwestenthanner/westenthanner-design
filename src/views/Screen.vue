@@ -1,7 +1,6 @@
 <template>
 <div id="screen">
 
-
     <div class="circle blur light gradient-yellow bounce-horizontal"></div>
     <div class="circle blur dark gradient-blue"></div>
     <div class="circle blur mid gradient-red bounce-vertical"></div>

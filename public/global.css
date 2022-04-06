@@ -60,6 +60,11 @@
   padding: 0;
 }
 
+a, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 /* --- GLOBAL STYLES --- */
 .circle {
   aspect-ratio: 1 / 1;
