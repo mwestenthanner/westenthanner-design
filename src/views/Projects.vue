@@ -8,12 +8,7 @@
         </svg>
     </div>
     <div class="project-grid">
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card v-for="project in projects" :key="project.name" :project="project"></Card>
     </div>
 </div>
 </template>
@@ -21,10 +16,19 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import Card from '../components/Card.vue'
+import { getProjects } from '../store/index'
 
 export default defineComponent({
     components: {
         Card
+    },
+    setup() {
+
+        const projects = getProjects.value;
+
+        return {
+            projects
+        }
     }
 });
 </script>

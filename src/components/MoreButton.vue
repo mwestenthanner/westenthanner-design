@@ -39,6 +39,13 @@ svg {
     width: 1rem;
     height: 1rem;
     padding: 1rem;
+    transform: rotate(0deg);
+    transition: 0.3s ease;
+}
+
+.more-button:hover svg {
+    transform: rotate(-20deg);
+    transition: 0.3s ease;
 }
 
 </style>

@@ -65,6 +65,10 @@ svg {
     stroke-width: 2px;
 }
 
+button:hover svg {
+    animation: bounce 0.5s ease;
+}
+
 .v-enter-active,
 .v-leave-active {
   transition: opacity 0.3s ease;
@@ -74,5 +78,18 @@ svg {
 .v-leave-to {
   opacity: 0;
 }
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 
 </style>

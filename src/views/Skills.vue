@@ -52,7 +52,7 @@ export default defineComponent({
 <style scoped>
 
 #skills {
-    margin: 12rem 6rem 6rem 6rem;
+    margin: 8rem 6rem 6rem 6rem;
     display: grid;
     grid-template-columns: 1fr 60%;
 }

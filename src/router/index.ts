@@ -1,11 +1,11 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Main from '../pages/Main.vue'
 import Impressum from '../pages/Impressum.vue'
 import Datenschutz from '../pages/Datenschutz.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
+    path: '',
     name: 'Home',
     component: Main
   },
@@ -22,7 +22,7 @@ const routes: Array<RouteRecordRaw> = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
   scrollBehavior(to) {
     if (to.hash) {

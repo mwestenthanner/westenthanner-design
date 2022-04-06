@@ -96,4 +96,28 @@ a, a:visited {
   border-radius: 1rem;
   font-family: 'Roboto Mono', monospace;
   font-style: italic;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.button-link:after {
+  content: "";
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  margin-left: 0.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iSWNvbnMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6bm9uZTtzdHJva2U6I2ZmZjtzdHJva2Utd2lkdGg6MjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7fQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiNmZmY7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30KPC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjYuNCwyLjlMMy44LDE1Yy0wLjcsMC40LTAuNywxLjUsMC4xLDEuOGwyMC44LDguN2MwLjYsMC4zLDEuMy0wLjIsMS40LTAuOGwxLjctMjAuOCAgQzI3LjksMywyNy4xLDIuNSwyNi40LDIuOXoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjYsNEwxMywyMHY3LjNjMCwwLjksMS4yLDEuNCwxLjgsMC43TDE5LDIzIi8+PC9zdmc+);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.button-link:hover {
+  padding-right: 4rem;
+}
+
+.button-link:hover:after {
+  opacity: 1;
 }

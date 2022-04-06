@@ -18,7 +18,7 @@
 
         <div class="circle light"></div>
 
-        <img src="../../public/profile.png" alt="Marianne Westenthanner">
+        <img src="../../public/img/profile.png" alt="Marianne Westenthanner">
 
     </div>
 
