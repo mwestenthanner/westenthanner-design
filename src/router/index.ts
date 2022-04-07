@@ -3,6 +3,7 @@ import Main from '../pages/Main.vue'
 import Impressum from '../pages/Impressum.vue'
 import Datenschutz from '../pages/Datenschutz.vue'
 import SingleProject from '../pages/SingleProject.vue'
+import ProjectCategory from '../pages/ProjectCategory.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -24,7 +25,12 @@ const routes: Array<RouteRecordRaw> = [
     path: '/project/:projectName',
     name: 'project',
     component: SingleProject
-  }
+  },
+  {
+    path: '/category/:categoryName',
+    name: 'category',
+    component: ProjectCategory
+  },
 ]
 
 const router = createRouter({

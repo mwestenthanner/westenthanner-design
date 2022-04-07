@@ -77,7 +77,7 @@ export default defineComponent({
 
 .card {
     aspect-ratio: 1 / 1;
-    max-width: 20rem;
+    width: calc(100% * (1/4) - 1.5rem - 1px);
     height: auto;
     position: relative;
     overflow: hidden;
@@ -96,7 +96,6 @@ export default defineComponent({
 
 .overlay {
     position: absolute;
-    height: 40%;
     width: 80%;
     margin-left: 10%;
     margin-bottom: 10%;
@@ -110,6 +109,10 @@ export default defineComponent({
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.overlay h3 {
+    margin-bottom: 1rem;
 }
 
 .overlay a {

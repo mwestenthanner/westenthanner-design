@@ -11,7 +11,11 @@ const state = ref({
                 'Typescript'
             ],
             url: 'https://better-bakes.netlify.app/',
-            img: 'bakes.png'
+            img: 'bakes.png',
+            categories: [
+                'Web Design',
+                'Web Development'
+            ]
         },
         {
             name: 'FRIGO',
@@ -23,7 +27,11 @@ const state = ref({
                 'MongoDB'
             ],
             url: 'https://github.com/mwestenthanner/frigo-mevn',
-            img: 'Frigo.png'
+            img: 'Frigo.png',
+            categories: [
+                'Web Design',
+                'Web Development'
+            ]
         },
         {
             name: 'find a game',
@@ -35,7 +43,11 @@ const state = ref({
                 'Airtable'
             ],
             url: 'https://gamepass-find-a-game.netlify.app/',
-            img: 'findagame.png'
+            img: 'findagame.png',
+            categories: [
+                'Web Design',
+                'Web Development'
+            ]
         },
         {
             name: 'Bräu z\'Loh Onlineshop',
@@ -45,7 +57,24 @@ const state = ref({
                 'WooCommerce'
             ],
             url: 'https://shop.braeuzloh.de/',
-            img: 'Braeu.png'
+            img: 'Braeu.png',
+            categories: [
+                'Web Design',
+                'Web Development'
+            ]
+        },
+        {
+            name: 'Hofmetzgerei Sippl',
+            description: 'Für die kleine Hofmetzgerei nahe Schwindegg, die 2021 eröffnet hat, habe ich die Gestaltung des Logos sowie einiger Teasergrafiken übernommen. Die beiden gezeigten Tiere sind handgezeichnet, zur besseren Verwendung in allen Größen ist das Logo zudem rein vektorbasiert.',
+            stack: [
+                'Grafikdesign',
+                'WordPress'
+            ],
+            url: 'https://www.facebook.com/hofmetzgereisippl',
+            img: 'Sippl.png',
+            categories: [
+                'Grafikdesign'
+            ]
         },
         {
             name: 'Angular Bakery',
@@ -54,7 +83,11 @@ const state = ref({
                 'Angular'
             ],
             url: 'https://angular-bakery.netlify.app/',
-            img: 'Bakery.png'
+            img: 'Bakery.png',
+            categories: [
+                'Web Design',
+                'Web Development'
+            ]
         },
         {
             name: 'Feuerwehr Schwindkirchen',
@@ -63,7 +96,10 @@ const state = ref({
                 'WordPress'
             ],
             url: 'https://ffwschwindkirchen.de/',
-            img: 'ffwskn.png'
+            img: 'ffwskn.png',
+            categories: [
+                'Web Development'
+            ]
         },
         {
             name: 'Feuerwehr Schwindegg',
@@ -72,11 +108,63 @@ const state = ref({
                 'WordPress'
             ],
             url: 'https://ff-schwindegg.de/',
-            img: 'ffwswgg.png'
+            img: 'ffwswgg.png',
+            categories: [
+                'Web Development'
+            ]
+        },
+        {
+            name: 'Feuerwehrkalender 2020',
+            description: 'Die Feuerwehrfrauen aus Schwindegg und Schwindkirchen hatten 2020 bereits zum 3. Mal einen Kalender geplant. Neben Layout und Druck habe ich das Design des Kalenders konzeptioniert sowie einen Online-Shop für die Kalender eingerichtet. Das Geld kam u.a. der Aktion Paulinchen e.V. zugute.',
+            stack: [
+                'Grafikdesign',
+                'WordPress'
+            ],
+            url: 'http://kalender.ff-schwindegg.de/',
+            img: 'Kalender.png',
+            categories: [
+                'Web Development',
+                'Grafikdesign'
+            ]
         }
+    ],
+
+    categoryList: [
+        {
+            name: 'Web Design',
+            description: [
+                'Ich designe Deinen Webauftritt, konzipiere nutzerfreundliche Designs und versehe sie mit der notwendigen Funktion. Dabei stimme ich mich in jedem Projektschritt mit Dir ab.',
+                'Als ausgebildete Softwarejournalistin bin ich zudem Expertin, was Nutzer und deren Anforderungen betrifft - ich habe mehrere Jahre Erfahrung im Testen verschiedenster Programme und Apps und kann Dir so einige Informationen zu Deiner Zielgruppe verraten.'
+            ],
+            img: 'frigo.png'
+        },
+        {
+            name: 'Web Development',
+            description: [
+                'Als Webentwicklerin . Ich habe Medieninformatik studiert und arbeite bereits seit mehreren Jahren mit aktuellen Webtechnologien, sodass ich Dir mit bestem Rat zur Seite stehen kann. Zuerst arbeiten wir gemeinsam aus, was Deine Anforderungen sind und wie wir sie am besten umsetzen.',
+                'Einfache Websites realisiere ich mit WordPress. Das hat den Vorteil, dass Du vollen Zugriff auf die Seite hast und Artikel, Seiten oder Bilder selbst publizieren kannst. Bei Fragen stehe ich Dir jedoch stets zur Seite. Auch Onlineshops lassen sich mit WordPress aufsetzen.',
+                'Ich nehme auch umfangreichere Projekte an und baue Webanwendungen - also Programme, die komplett im Browser laufen. Das reicht von einfachen Apps wie meinem Back-Rechner Better Bakes, mit dem man Backformen und Zutatenmengen umrechnen kann, bis hin zu komplizierten Anwendungen mit Datenbanken und mehreren Nutzern. Dabei arbeite ich meist mit Vue, einem Javascript-Framework. Dank verschiedener Technologien kannst Du meine Vue-Apps sogar auf dem Smartphone installieren.'
+            ],
+            img: 'frigo.png'
+        },        
+        {
+            name: 'Grafikdesign',
+            description: [
+                'Neben Entwicklungsprojekten stehe ich Dir auch als Grafikdesignerin zur Seite und erstelle zum Beispiel Werbematerial wie Flyer und Plakate, aber auch Teaserbilder oder Grafiken, die Du im Web oder auf Instagram, Facebook & Co. einsetzen kannst.',
+                'Ich arbeite mit der Affinity Suite, Photoshop sowie After Effects. Damit konzeptioniere ich nicht nur druckfertige Produkte und Social-Media-Grafiken, sondern begleite Dich bei allen Schritten bis zur Lieferung des fertigen Werbeprodukts.',
+                'Bei Vereinen oder Unternehmen lohnt es sich zudem, eine sogenannte Corporate Identity zu entwickeln. Dabei legen wir passende Farben, Schriften und eine Bildsprache fest, die zu Deiner Nutzergruppe passen.'  
+            ],
+            img: 'frigo.png'
+        }, 
     ]
     
 })
 
 
-export const getProjects = computed(() => state.value.projectList);
+const getProjects = computed(() => state.value.projectList);
+const getCategories = computed(() => state.value.categoryList);
+
+export {
+    getProjects,
+    getCategories
+}

@@ -11,7 +11,7 @@
     <h2>{{ project.name }}</h2>
     <p>{{ project.description }}</p>
     <div class="cta" v-if="project.url != ''">
-      <a target="_blank" class="button-link" :href="project.url">Jetzt ausprobieren</a>
+      <a target="_blank" class="button-link" :href="project.url">Zum Produkt</a>
     </div>
   </div>
 
@@ -115,6 +115,7 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 70%;
+  white-space: nowrap;
 }
 
 .tag:not(:last-child) {

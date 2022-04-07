@@ -7,21 +7,21 @@
                 <div class="list-item">
                     <h3>Web Design</h3>
                     <p>Ich designe Deinen Webauftritt, konzipiere nutzerfreundliche Designs und versehe sie mit der notwendigen Funktion. Als ausgebildete Softwarejournalistin bin ich zudem Expertin, was Nutzer und deren Anforderungen betrifft.</p>
-                    <MoreButton></MoreButton>
+                    <router-link to="/category/Web Design"><MoreButton></MoreButton></router-link>
                 </div>
             </li>
             <li>
                 <div class="list-item">
                     <h3>Web- und App-Entwicklung</h3>
                     <p>Ob einfache Website, Online-Shop oder funktionale Web-App: Als Webentwicklerin arbeite ich an verschiedensten Projekten und begleite alle Schritte vom Konzept bis hin zum Startschuss.</p>
-                    <MoreButton></MoreButton>
+                    <router-link to="/category/Web Development"><MoreButton></MoreButton></router-link>
                 </div>
             </li>
             <li>
                 <div class="list-item">
                     <h3>Grafikdesign</h3>
                     <p>Nicht nur im digitalen Bereich greife ich Dir mit meinen Designkenntnissen unter die Arme, sondern konzipiere auch Werbematerial, Flyer oder Social-Media-Grafiken.</p>
-                    <MoreButton></MoreButton>
+                    <router-link to="/category/Grafikdesign"><MoreButton></MoreButton></router-link>
                 </div>
             </li>
         </ol>

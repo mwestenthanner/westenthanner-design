@@ -8,7 +8,7 @@
         </svg>
     </div>
     <div class="project-grid">
-        <Card v-for="project in projects" :key="project.name" :project="project"></Card>
+        <Card v-for="project in projects.slice(0,10)" :key="project.name" :project="project"></Card>
     </div>
 </div>
 </template>
@@ -58,9 +58,17 @@ export default defineComponent({
 }
 
 .project-grid {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-around;
+    flex-direction: row;
+    /*
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
     grid-gap: 1rem;
+    */
 }
 
 @keyframes text-clip {
