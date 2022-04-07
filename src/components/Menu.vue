@@ -12,6 +12,10 @@
 
 <style scoped>
 
+nav {
+    padding: 4rem;
+}
+
 ul li {
     list-style-type: none;
     display: inline-block;

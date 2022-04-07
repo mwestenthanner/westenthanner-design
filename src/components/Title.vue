@@ -26,6 +26,7 @@ export default defineComponent({
     display: flex;
     gap: 1rem;
     align-items: center;
+    padding: 3rem;
 }
 
 h1 {
